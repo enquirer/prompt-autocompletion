@@ -1,22 +1,22 @@
-# prompt-autocomplete [![NPM version](https://img.shields.io/npm/v/prompt-autocomplete.svg?style=flat)](https://www.npmjs.com/package/prompt-autocomplete) [![NPM downloads](https://img.shields.io/npm/dm/prompt-autocomplete.svg?style=flat)](https://npmjs.org/package/prompt-autocomplete)
+# prompt-autocompletion [![NPM version](https://img.shields.io/npm/v/prompt-autocompletion.svg?style=flat)](https://www.npmjs.com/package/prompt-autocompletion) [![NPM downloads](https://img.shields.io/npm/dm/prompt-autocompletion.svg?style=flat)](https://npmjs.org/package/prompt-autocompletion)
 
 > Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer](https://github.com/enquirer/enquirer)
 
-![prompt-autocomplete example](https://raw.githubusercontent.com/jonschlinkert/prompt-autocomplete/master/example.gif)
+![prompt-autocompletion example](https://raw.githubusercontent.com/jonschlinkert/prompt-autocompletion/master/example.gif)
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save prompt-autocomplete
+$ npm install --save prompt-autocompletion
 ```
 
 ## Example usage
 
 ```js
 var states = ['Alabama', 'Alaska', 'American Samoa', ...];
-var AutoComplete = require('prompt-autocomplete');
+var AutoComplete = require('prompt-autocompletion');
 var autocomplete = new AutoComplete({
   type: 'autocomplete',
   name: 'from',
@@ -56,7 +56,7 @@ var states = ['Alabama', 'Alaska', 'American Samoa', ...];
 var Enquirer = require('enquirer');
 var enquirer = new Enquirer();
 
-enquirer.register('autocomplete', require('prompt-autocomplete'));
+enquirer.register('autocomplete', require('prompt-autocompletion'));
 var questions = [
   {
     type: 'autocomplete',
@@ -138,7 +138,7 @@ $ npm install -d && npm test
 ### License
 
 Copyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
-Released under the [MIT license](https://github.com/jonschlinkert/prompt-autocomplete/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/jonschlinkert/prompt-autocompletion/blob/master/LICENSE).
 
 ***
 
