@@ -1,0 +1,70 @@
+{
+  "name": "prompt-autocomplete",
+  "description": "Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer]",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/prompt-autocomplete",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/prompt-autocomplete",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/prompt-autocomplete/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "autocomplete",
+    "generategenerator",
+    "prompt"
+  ],
+  "dependencies": {
+    "figures": "^1.7.0",
+    "log-utils": "^0.2.1",
+    "prompt-base": "^0.5.0",
+    "prompt-choices": "^0.4.0",
+    "readline-utils": "^0.1.2",
+    "terminal-paginator": "^0.2.1"
+  },
+  "devDependencies": {
+    "enquirer": "^0.3.1",
+    "gulp-format-md": "^0.1.11"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "common-minimal",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [],
+      "prompts": [
+        "prompt-checkbox",
+        "prompt-confirm",
+        "prompt-editor",
+        "prompt-expand",
+        "prompt-list",
+        "prompt-password",
+        "prompt-radio",
+        "prompt-rawlist"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "enquirer",
+      "verb-generate-readme"
+    ]
+  }
+}
