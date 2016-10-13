@@ -1,12 +1,12 @@
 {
   "name": "prompt-autocompletion",
   "description": "Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer]",
-  "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/prompt-autocompletion",
+  "version": "0.1.1",
+  "homepage": "https://github.com/enquirer/prompt-autocompletion",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/prompt-autocompletion",
+  "repository": "enquirer/prompt-autocompletion",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/prompt-autocompletion/issues"
+    "url": "https://github.com/enquirer/prompt-autocompletion/issues"
   },
   "license": "MIT",
   "files": [

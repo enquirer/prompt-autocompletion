@@ -2,7 +2,7 @@
 
 > Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer](https://github.com/enquirer/enquirer)
 
-![prompt-autocompletion example](https://raw.githubusercontent.com/jonschlinkert/prompt-autocompletion/master/example.gif)
+![prompt-autocompletion example](https://raw.githubusercontent.com/enquirer/prompt-autocompletion/master/example.gif)
 
 ## Install
 
@@ -138,7 +138,7 @@ $ npm install -d && npm test
 ### License
 
 Copyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
-Released under the [MIT license](https://github.com/jonschlinkert/prompt-autocompletion/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/enquirer/prompt-autocompletion/blob/master/LICENSE).
 
 ***
 
