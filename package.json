@@ -1,12 +1,12 @@
 {
-  "name": "prompt-autocomplete",
-  "description": "Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer]",
+  "name": "prompt-auto-complete",
+  "description": "Prompt that auto-completes as you type. Can be used standalone or with a prompt system like [enquirer]",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/prompt-autocomplete",
+  "homepage": "https://github.com/jonschlinkert/prompt-auto-complete",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/prompt-autocomplete",
+  "repository": "jonschlinkert/prompt-auto-complete",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/prompt-autocomplete/issues"
+    "url": "https://github.com/jonschlinkert/prompt-auto-complete/issues"
   },
   "license": "MIT",
   "files": [
@@ -19,11 +19,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "autocomplete",
-    "generategenerator",
-    "prompt"
-  ],
   "dependencies": {
     "figures": "^1.7.0",
     "log-utils": "^0.2.1",
@@ -36,6 +31,13 @@
     "enquirer": "^0.3.1",
     "gulp-format-md": "^0.1.11"
   },
+  "keywords": [
+    "auto",
+    "autocomplete",
+    "complete",
+    "generategenerator",
+    "prompt"
+  ],
   "verb": {
     "toc": false,
     "layout": "common-minimal",
@@ -62,8 +64,8 @@
       ]
     },
     "reflinks": [
-      "verb",
       "enquirer",
+      "verb",
       "verb-generate-readme"
     ]
   }
