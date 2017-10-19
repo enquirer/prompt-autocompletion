@@ -157,9 +157,13 @@ Prompt.prototype.coerceToRange = function() {
  * When user types
  */
 
-Prompt.prototype.onKeypress = function(e) {
-  var keypress = e.key && e.key.name;
+Prompt.prototype.onKeypress = function(keypress) {
   var len = this.currentChoices.length;
+
+  // Let onSubmit handle return key press
+  if (keypress === 'return') {
+    return;
+  }
 
   if (keypress === 'down') {
     this.selected = (this.selected < len - 1) ? this.selected + 1 : 0;
