@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*!
  * This is almost entirely based on:
  * https://www.npmjs.com/package/inquirer-autocomplete-prompt
  * Copyright (c) 2015, Martin Hansen <martin@martinhansen.no>
@@ -20,7 +20,7 @@ var utils = require('readline-utils');
 
 function Prompt() {
   BasePrompt.apply(this, arguments);
-  if (!this.question.source) {
+  if (typeof this.question.source !== 'function') {
     throw new TypeError('expected source to be defined');
   }
 
