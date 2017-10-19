@@ -1,7 +1,7 @@
 {
   "name": "prompt-autocompletion",
   "description": "Prompt that autocompletes as you type. Can be used standalone or with a prompt system like [enquirer]",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/enquirer/prompt-autocompletion",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "enquirer/prompt-autocompletion",
